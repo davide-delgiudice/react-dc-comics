@@ -50,9 +50,9 @@ const Footer = () => {
         </div>
         <div className="bgbottomfooter">
             <div className="bottomfooter body-margin">
-                <h4 className="sign-box">SIGN-UP NOW!</h4>
+                <a href="#"><p className="sign-box">SIGN-UP NOW!</p></a>
                 <div className="social">
-                    <h4>FOLLOW US</h4>
+                    <a href="#"><p className="follow">FOLLOW US</p></a>
                     <img src="/src/assets/img/footer-facebook.png" alt="facebook" />
                     <img src="/src/assets/img/footer-periscope.png" alt="periscope" />
                     <img src="/src/assets/img/footer-pinterest.png" alt="pinterest" />
