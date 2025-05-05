@@ -20,11 +20,6 @@ body{
   margin: 0 auto;
 }
 
-a{
-  color: black;
-  text-decoration: none;
-}
-
 /* HEADER */
 
 header{
@@ -55,7 +50,16 @@ nav ul li :hover, ul li a.active{
   color: rgb(55, 128, 230);
 }
 
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
 /* MAIN */
+
+main div{
+  padding: 40px 0px;
+}
 
 .bg-dark{
   background-color: rgb(0, 0, 0);
@@ -67,4 +71,31 @@ h2{
 
 section{
   background-color: rgb(55, 128, 230);
+  padding: 40px 0px;
+}
+
+section img{
+  width: 40px;
+}
+
+section ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+section ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+section a{
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+section img.smaller{
+  width: 30px;
 }

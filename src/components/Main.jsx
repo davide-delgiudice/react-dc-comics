@@ -2,10 +2,10 @@ const Main = () => {
   return (
     <main>
         <div className="bg-dark">
-            <h2 className="body-margin">Guarda che bella scritta</h2>
+            <h2 className="body-margin">Guarda che bella scritta!</h2>
         </div>
         <section>
-            <ul>
+            <ul className="body-margin">
                 <li>
                     <img src="/src/assets/img/buy-comics-digital-comics.png" alt="digital-comics" />
                     <a href="#">digital comics</a>
@@ -15,11 +15,11 @@ const Main = () => {
                     <a href="#">dc merchandise</a>
                 </li>
                 <li>
-                    <img src="/src/assets/img/buy-comics-shop-locator.png" alt="shop-locator" />
+                    <img src="/src/assets/img/buy-comics-subscriptions.png" alt="shop-locator" />
                     <a href="#">subscription</a>
                 </li>
                 <li>
-                    <img src="/src/assets/img/buy-comics-subscriptions.png" alt="subscriptions" />
+                    <img className="smaller" src="/src/assets/img/buy-comics-shop-locator.png" alt="subscriptions" />
                     <a href="#">comic shop locator</a>
                 </li>
                 <li>
