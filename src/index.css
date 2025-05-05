@@ -59,6 +59,11 @@ nav a{
 
 /* MAIN */
 
+.main-margin{
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
 main div{
   padding: 40px 0px;
 }
@@ -105,3 +110,34 @@ main section img.smaller{
 
 /* FOOTER */
 
+footer .bgfooter{
+  background-image: url(/src/assets/img/footer-bg.jpg);
+}
+
+footer .topfooter{
+  display: flex;
+  padding: 40px 0px;
+}
+
+footer .colfooter{
+  padding-right: 30px;
+}
+
+h4{
+  color: white;
+  font-size: 15px;
+}
+
+footer ul{
+  margin: 15px 0px;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: grey;
+  font-size: 11px;
+}

@@ -5,7 +5,7 @@ const Main = () => {
             <h2 className="body-margin">Guarda che bella scritta!</h2>
         </div>
         <section>
-            <ul className="body-margin">
+            <ul className="main-margin">
                 <li>
                     <img src="/src/assets/img/buy-comics-digital-comics.png" alt="digital-comics" />
                     <a href="#">digital comics</a>
