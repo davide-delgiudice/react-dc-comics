@@ -20,6 +20,7 @@ body{
   margin: 0 auto;
 }
 
+
 /* HEADER */
 
 header{
@@ -30,7 +31,7 @@ header{
   margin: 20px 0px;
 }
 
-figure img{
+header figure img{
   width: 60px;
 }
 
@@ -55,6 +56,7 @@ nav a{
   text-decoration: none;
 }
 
+
 /* MAIN */
 
 main div{
@@ -69,33 +71,37 @@ h2{
   color: white;
 }
 
-section{
+main section{
   background-color: rgb(55, 128, 230);
   padding: 40px 0px;
 }
 
-section img{
+main section img{
   width: 40px;
 }
 
-section ul{
+main section ul{
   display: flex;
   justify-content: space-around;
 }
 
-section ul li{
+main section ul li{
   list-style: none;
   display: flex;
   align-items: center;
   text-transform: uppercase;
 }
 
-section a{
+main section a{
   color: white;
   text-decoration: none;
   margin: 0px 10px;
 }
 
-section img.smaller{
+main section img.smaller{
   width: 30px;
 }
+
+
+/* FOOTER */
+
