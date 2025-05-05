@@ -1,6 +1,17 @@
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+        <figure>
+            <img src="/src/assets/img/dc-logo.png" alt="dc-logo" />
+        </figure>
+        <div>
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+    </header>
   )
 }
 
