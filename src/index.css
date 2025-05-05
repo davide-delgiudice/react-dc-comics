@@ -39,19 +39,19 @@ figure img{
   width: 60px;
 }
 
-ul{
+nav ul{
   display: flex;
   gap: 25px;
 }
 
-ul li{
+nav ul li{
   list-style: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 12px;
 }
 
-ul li :hover, ul li a.active{
+nav ul li :hover, ul li a.active{
   color: rgb(55, 128, 230);
 }
 
@@ -63,4 +63,8 @@ ul li :hover, ul li a.active{
 
 h2{
   color: white;
+}
+
+section{
+  background-color: rgb(55, 128, 230);
 }
