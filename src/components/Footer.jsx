@@ -53,11 +53,11 @@ const Footer = () => {
                 <a href="#"><p className="sign-box">SIGN-UP NOW!</p></a>
                 <div className="social">
                     <a href="#"><p className="follow">FOLLOW US</p></a>
-                    <img src="/src/assets/img/footer-facebook.png" alt="facebook" />
-                    <img src="/src/assets/img/footer-periscope.png" alt="periscope" />
-                    <img src="/src/assets/img/footer-pinterest.png" alt="pinterest" />
-                    <img src="/src/assets/img/footer-twitter.png" alt="twitter" />
-                    <img src="/src/assets/img/footer-youtube.png" alt="youtube" />
+                    <a href="#"><img src="/src/assets/img/footer-facebook.png" alt="facebook" /></a>
+                    <a href="#"><img src="/src/assets/img/footer-periscope.png" alt="periscope" /></a>
+                    <a href="#"><img src="/src/assets/img/footer-pinterest.png" alt="pinterest" /></a>
+                    <a href="#"><img src="/src/assets/img/footer-twitter.png" alt="twitter" /></a>
+                    <a href="#" id=""><img src="/src/assets/img/footer-youtube.png" alt="youtube" /></a>
                 </div>
             </div>
         </div>
