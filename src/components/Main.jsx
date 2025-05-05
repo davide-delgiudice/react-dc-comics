@@ -1,8 +1,13 @@
-import React from 'react'
-
 const Main = () => {
   return (
-    <div>Main</div>
+    <main>
+        <div className="bg-dark">
+            <h2 className="body-margin">Guarda che bella scritta</h2>
+        </div>
+        <div>
+
+        </div>
+    </main>
   )
 }
 

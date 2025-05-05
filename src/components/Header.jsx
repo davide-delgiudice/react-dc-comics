@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header>
+    <header className="body-margin">
         <figure>
             <img src="/src/assets/img/dc-logo.png" alt="dc-logo" />
         </figure>
