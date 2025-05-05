@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-        <div className="bgfooter">
+        <div className="bgtopfooter">
             <div className="topfooter body-margin">
                 <div className="colfooter">
                     <h4>DC COMICS</h4>
@@ -48,8 +48,18 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="bottomfooter">
-
+        <div className="bgbottomfooter">
+            <div className="bottomfooter body-margin">
+                <h4 className="sign-box">SIGN-UP NOW!</h4>
+                <div className="social">
+                    <h4>FOLLOW US</h4>
+                    <img src="/src/assets/img/footer-facebook.png" alt="facebook" />
+                    <img src="/src/assets/img/footer-periscope.png" alt="periscope" />
+                    <img src="/src/assets/img/footer-pinterest.png" alt="pinterest" />
+                    <img src="/src/assets/img/footer-twitter.png" alt="twitter" />
+                    <img src="/src/assets/img/footer-youtube.png" alt="youtube" />
+                </div>
+            </div>
         </div>
     </footer>
   )

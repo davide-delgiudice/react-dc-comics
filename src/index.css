@@ -110,7 +110,7 @@ main section img.smaller{
 
 /* FOOTER */
 
-footer .bgfooter{
+footer .bgtopfooter{
   background-image: 
     url(/src/assets/img/dc-logo-bg.png),
     url(/src/assets/img/footer-bg.jpg);
@@ -145,4 +145,24 @@ footer a{
   text-decoration: none;
   color: grey;
   font-size: 11px;
+}
+
+.bgbottomfooter{
+  background-color: rgb(83, 83, 83);
+}
+
+.bottomfooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+}
+
+.sign-box{
+  border-style: solid;
+  border-color: rgb(55, 128, 230);
 }
