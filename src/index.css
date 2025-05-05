@@ -7,3 +7,13 @@
 body{
   font-family: opne+sans, sans-serif;
 }
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
