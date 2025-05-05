@@ -46,9 +46,6 @@ const Footer = () => {
                         <li><a href="#">DC Power Visa</a></li>
                     </ul>
                 </div>
-                <figure>
-                    
-                </figure>
             </div>
         </div>
         <div className="bottomfooter">

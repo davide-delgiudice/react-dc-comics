@@ -111,7 +111,12 @@ main section img.smaller{
 /* FOOTER */
 
 footer .bgfooter{
-  background-image: url(/src/assets/img/footer-bg.jpg);
+  background-image: 
+    url(/src/assets/img/dc-logo-bg.png),
+    url(/src/assets/img/footer-bg.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 900px, center;
+  background-size: 30%, cover;
 }
 
 footer .topfooter{
