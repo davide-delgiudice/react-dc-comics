@@ -5,10 +5,58 @@ import comics from '../../comics'
 const ListComics = () => {
 
   return (
+    <>
+    
     <ComicCard 
-        thumb="x"
-        series="y"
+        thumb={comics[0].thumb}
+        series={comics[0].series}
     />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    <ComicCard 
+        thumb={comics[0].thumb}
+        series={comics[0].series}
+    />
+    
+    </>
   )
 }
 
