@@ -152,4 +152,3 @@ const comics = [
     writers: ["Joëlle Jones"],
   },
 ];
-
