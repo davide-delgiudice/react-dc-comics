@@ -59,6 +59,16 @@ nav a{
   text-decoration: none;
 }
 
+/* JUMBOTRON */
+.overflow-hidden{
+  height: 300px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.jumbo{
+  width: 100%;
+}
 
 /* MAIN */
 
