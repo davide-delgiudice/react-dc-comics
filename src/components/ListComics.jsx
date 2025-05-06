@@ -5,7 +5,10 @@ import comics from '../../comics'
 const ListComics = () => {
 
   return (
-    <ComicCard />
+    <ComicCard 
+        thumb="x"
+        series="y"
+    />
   )
 }
 
