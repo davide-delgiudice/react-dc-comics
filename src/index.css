@@ -24,8 +24,8 @@ body{
   color: white;
 }
 
-.padding-40{
-  padding: 40px 0px;
+.padding-dark{
+  padding: 40px 0px 20px 0px;
 }
 
 /* HEADER */
@@ -81,6 +81,7 @@ nav a{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 40px;
 }
 
 .img-fit{
@@ -98,6 +99,18 @@ nav a{
   width: 100%; 
 }
 
+.load{
+  text-align: center;
+  font-weight: bold;
+}
+
+.load-box{
+  background-color: rgb(55, 128, 230);
+  width: 250px;
+  padding: 10px 0px;
+  margin: auto;
+}
+
 /* MAIN */
 
 .main-margin{
@@ -111,6 +124,10 @@ nav a{
 
 h2{
   color: white;
+}
+
+main a{
+  text-decoration: none;
 }
 
 main section{
