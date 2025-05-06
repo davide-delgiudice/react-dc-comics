@@ -24,6 +24,10 @@ body{
   color: white;
 }
 
+.padding-40{
+  padding: 40px 0px;
+}
+
 /* HEADER */
 
 header{
@@ -70,15 +74,35 @@ nav a{
   width: 100%;
 }
 
+/* COMIC CARDS */
+.card-container{
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.img-fit{
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.prod-card{
+  width: calc(100% / 6 - 30px);
+}
+
+.img-card{
+  width: 100%; 
+}
+
 /* MAIN */
 
 .main-margin{
   margin-left: 350px;
   margin-right: 350px;
-}
-
-main div{
-  padding: 40px 0px;
 }
 
 .bg-dark{
@@ -118,22 +142,6 @@ main section a{
 
 main section img.smaller{
   width: 30px;
-}
-
-/* COMIC CARDS */
-.card-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.prod-card{
-  width: calc(100% / 6 - 20px);
-}
-
-.img-card{
-  width: 200px;
-  height: 200px;
 }
 
 

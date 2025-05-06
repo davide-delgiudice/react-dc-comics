@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <main>
         <Jumbotron />
-        <div className="bg-dark">
+        <div className="bg-dark padding-40">
             <ListComics />
         </div>
         <BlueSection />
