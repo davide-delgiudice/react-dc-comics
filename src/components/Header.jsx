@@ -1,3 +1,5 @@
+import links from "../../links"
+
 const Header = () => {
   return (
     <header className="body-margin">
