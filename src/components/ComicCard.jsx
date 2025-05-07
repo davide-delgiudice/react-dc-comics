@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ComicCard(props) {
+
   return (
     <div className='prod-card'>
         <div className='img-fit'>
@@ -14,3 +15,11 @@ function ComicCard(props) {
 }
 
 export default ComicCard
+
+
+// metodo alternativo 1
+// let image = props.image;
+// let title = props.title;
+
+// metodo alternativo 2
+// img src={props.comic.thumb}

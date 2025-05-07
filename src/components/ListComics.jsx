@@ -7,6 +7,7 @@ const ListComics = () => {
   return (
     <>
     <div className='card-container'>
+        
         <ComicCard 
             thumb={comics[0].thumb}
             series={comics[0].series}
